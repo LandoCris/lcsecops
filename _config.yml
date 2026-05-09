@@ -1,22 +1,13 @@
-title: LCSecOps 
-description: Security Research, lab walkthroughs, CTF writeups, and PNPT prep
-url: "https://landocris.github.io" 
+title: LCSecOps
+description: Security research, lab walkthroughs, CTF writeups, and PNPT prep
+url: "https://landocris.github.io"
 baseurl: "/lcsecops"
 author: Landon Crismas
 
-theme: minima 
+theme: minima
 
+markdown: kramdown
+highlighter: rouge
 
-nav_links: 
-  - title: Home 
-    url: / 
-  - title: About 
-    url: /about 
-  -title: Writeups
-    url: /writeups 
-
-markdown: kramdown 
-highlighter: rogue 
-
-plugins: 
- - jekyll-feed
+plugins:
+  - jekyll-feed               
